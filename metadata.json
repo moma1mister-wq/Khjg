@@ -1,0 +1,6 @@
+{
+  "name": "رفيق الطالب",
+  "description": "تطبيق شامل للطالب الجامعي: إدارة الجدول الأكاديمي، مؤقت المذاكرة والتركيز الخلفي، المهام اليومية والروتين، المصحف الشريف والأذكار.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

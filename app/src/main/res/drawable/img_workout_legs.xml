@@ -1,0 +1,109 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="240dp"
+    android:viewportWidth="400"
+    android:viewportHeight="240">
+
+    <!-- Background Athletic Gradient -->
+    <path
+        android:fillColor="#047857"
+        android:pathData="M 0,0 L 400,0 L 400,240 L 0,240 Z" />
+
+    <path
+        android:fillColor="#064E3B"
+        android:pathData="M 0,165 L 400,125 L 400,240 L 0,240 Z" />
+
+    <!-- Floor Line -->
+    <path
+        android:fillColor="#ECFDF5"
+        android:pathData="M 35,200 L 365,200 C 370,200 373,203 373,207 C 373,211 370,214 365,214 L 35,214 C 30,214 27,211 27,207 C 27,203 30,200 35,200 Z" />
+
+    <!-- Figure 1: Calf Raise & Foot Stretch (Right Side) -->
+    <!-- Head -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 270,40 C 270,32 277,25 285,25 C 293,25 300,32 300,40 C 300,48 293,55 285,55 C 277,55 270,48 270,40 Z" />
+
+    <!-- Torso standing upright -->
+    <path
+        android:strokeColor="#A7F3D0"
+        android:strokeWidth="12"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M 285,55 L 285,120" />
+
+    <!-- Extended Arms for Balance -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="7"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M 285,75 L 325,95" />
+
+    <!-- Legs & Elevated Heel (Calf Raise Active) -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="11"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000"
+        android:pathData="M 285,120 L 285,165 L 285,190 L 305,200" />
+
+    <!-- Elevated Heel Ground Clearance Arrow (Indicating calf contraction) -->
+    <path
+        android:strokeColor="#FCD34D"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M 275,195 L 275,180 M 270,186 L 275,180 L 280,186" />
+
+    <!-- Figure 2: Bodyweight Squat Form (Left Side) -->
+    <!-- Head in Squat -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 95,75 C 95,67 102,60 110,60 C 118,60 125,67 125,75 C 125,83 118,90 110,90 C 102,90 95,83 95,75 Z" />
+
+    <!-- Torso inclined slightly forward with straight spine -->
+    <path
+        android:strokeColor="#A7F3D0"
+        android:strokeWidth="12"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M 110,90 L 135,130" />
+
+    <!-- Arms extended forward for counter-balance -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="7"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M 120,105 L 75,105" />
+
+    <!-- Thigh parallel to ground (Squat Depth) -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="11"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000"
+        android:pathData="M 135,130 L 95,145 L 95,200 L 115,200" />
+
+    <!-- Knee Safety Angle Indicator (Not crossing toes) -->
+    <path
+        android:strokeColor="#FCD34D"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M 95,145 L 95,200" />
+
+    <!-- Top Badge Container -->
+    <path
+        android:fillColor="#064E3B"
+        android:pathData="M 20,20 L 160,20 C 166,20 170,24 170,30 L 170,44 C 170,50 166,54 160,54 L 20,54 C 14,54 10,50 10,44 L 10,30 C 10,24 14,20 20,20 Z" />
+
+    <!-- Checkmark Icon inside badge -->
+    <path
+        android:fillColor="#34D399"
+        android:pathData="M 25,37 L 31,43 L 42,32 L 39,29 L 31,37 L 28,34 Z" />
+
+</vector>

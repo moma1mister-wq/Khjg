@@ -1,0 +1,85 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="240dp"
+    android:viewportWidth="400"
+    android:viewportHeight="240">
+
+    <!-- Background Athletic Gradient -->
+    <path
+        android:fillColor="#1E3A8A"
+        android:pathData="M 0,0 L 400,0 L 400,240 L 0,240 Z" />
+
+    <path
+        android:fillColor="#172554"
+        android:pathData="M 0,165 L 400,125 L 400,240 L 0,240 Z" />
+
+    <!-- Floor Mat -->
+    <path
+        android:fillColor="#EFF6FF"
+        android:pathData="M 35,185 L 365,185 C 370,185 373,188 373,193 L 373,198 C 373,203 370,206 365,206 L 35,206 C 30,206 27,203 27,198 L 27,193 C 27,188 30,185 35,185 Z" />
+
+    <!-- Abdominal Crunch & Plank Core Form -->
+    <!-- Head in Crunch Pose -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 95,120 C 95,112 102,105 110,105 C 118,105 125,112 125,120 C 125,128 118,135 110,135 C 102,135 95,128 95,120 Z" />
+
+    <!-- Upper Body Curved Upwards (Crunch) -->
+    <path
+        android:strokeColor="#93C5FD"
+        android:strokeWidth="14"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000"
+        android:pathData="M 115,130 L 160,160 L 220,175" />
+
+    <!-- Core Abdominal Muscle Focus Zone (Glowing Indicator) -->
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M 175,160 C 175,152 185,148 195,152 C 205,156 205,168 195,172 C 185,176 175,168 175,160 Z" />
+
+    <!-- Arms behind head supporting neck comfortably -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000"
+        android:pathData="M 90,122 L 100,110 L 125,125" />
+
+    <!-- Legs in 90-degree Knees-Bent Position -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="12"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000"
+        android:pathData="M 220,175 L 275,120 L 320,185" />
+
+    <!-- 90 Degree Angle Arc Guide -->
+    <path
+        android:strokeColor="#FBBF24"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M 265,135 C 272,138 275,145 272,152" />
+
+    <!-- Core Activation Pulsing Waves -->
+    <path
+        android:strokeColor="#60A5FA"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M 160,140 Q 185,130 210,145" />
+
+    <!-- Top Badge Container -->
+    <path
+        android:fillColor="#0F172A"
+        android:pathData="M 20,20 L 160,20 C 166,20 170,24 170,30 L 170,44 C 170,50 166,54 160,54 L 20,54 C 14,54 10,50 10,44 L 10,30 C 10,24 14,20 20,20 Z" />
+
+    <!-- Muscle Strength Icon inside badge -->
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M 25,37 L 31,43 L 42,32 L 39,29 L 31,37 L 28,34 Z" />
+
+</vector>

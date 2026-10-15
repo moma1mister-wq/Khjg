@@ -1,0 +1,84 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="240dp"
+    android:viewportWidth="400"
+    android:viewportHeight="240">
+
+    <!-- Background Athletic Card Gradient -->
+    <path
+        android:fillColor="#0D9488"
+        android:pathData="M 0,0 L 400,0 L 400,240 L 0,240 Z" />
+
+    <path
+        android:fillColor="#115E59"
+        android:pathData="M 0,160 L 400,120 L 400,240 L 0,240 Z" />
+
+    <!-- Floor Mat -->
+    <path
+        android:fillColor="#F0FDFA"
+        android:pathData="M 40,185 L 360,185 C 365,185 368,188 368,193 L 368,198 C 368,203 365,206 360,206 L 40,206 C 35,206 32,203 32,198 L 32,193 C 32,188 35,185 40,185 Z" />
+
+    <!-- Exercise Silhouette: Cat-Cow Spine Stretch & Bridge Pose -->
+    <!-- Head -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 105,100 C 105,92 112,85 120,85 C 128,85 135,92 135,100 C 135,108 128,115 120,115 C 112,115 105,108 105,100 Z" />
+
+    <!-- Arms supporting on mat -->
+    <path
+        android:fillColor="#CCFBF1"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="10"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M 125,115 L 125,185" />
+
+    <!-- Spine Curve (Back Stretch Arc) -->
+    <path
+        android:strokeColor="#5EEAD4"
+        android:strokeWidth="12"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000"
+        android:pathData="M 125,120 Q 195,85 265,125" />
+
+    <!-- Spine Center Energy Line (Vertebral Alignment Indicator) -->
+    <path
+        android:strokeColor="#FEF08A"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M 135,115 Q 195,95 255,120" />
+
+    <!-- Pelvis & Legs supporting on knees -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 255,118 C 255,110 262,105 270,105 C 278,105 285,110 285,118 C 285,126 278,131 270,131 C 262,131 255,126 255,118 Z" />
+
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="11"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000"
+        android:pathData="M 270,128 L 270,185 L 310,185" />
+
+    <!-- Directional Stretch Guides (Spine decompression indicator) -->
+    <path
+        android:strokeColor="#FEF08A"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M 195,65 L 195,45 M 188,52 L 195,45 L 202,52" />
+
+    <!-- Label Pill Badge -->
+    <path
+        android:fillColor="#134E4A"
+        android:pathData="M 20,20 L 160,20 C 166,20 170,24 170,30 L 170,44 C 170,50 166,54 160,54 L 20,54 C 14,54 10,50 10,44 L 10,30 C 10,24 14,20 20,20 Z" />
+
+    <!-- Subtle check icon inside badge -->
+    <path
+        android:fillColor="#5EEAD4"
+        android:pathData="M 25,37 L 31,43 L 42,32 L 39,29 L 31,37 L 28,34 Z" />
+
+</vector>

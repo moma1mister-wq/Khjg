@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">رفيق الطالب</string>
+    <string name="nav_home">الرئيسية</string>
+    <string name="nav_schedule">الجدول الدراسي</string>
+    <string name="nav_timer">المذاكرة</string>
+    <string name="nav_quran">المصحف والأذكار</string>
+    <string name="nav_settings">الإعدادات</string>
+    <string name="action_add_task">إضافة مهمة</string>
+    <string name="action_add_lecture">إضافة محاضرة</string>
+    <string name="notification_channel_tasks">تنبيهات المهام والمحاضرات</string>
+    <string name="notification_channel_timer">مؤقت المذاكرة</string>
+    <string name="timer_service_name">جلسة المذاكرة جارية</string>
+</resources>
